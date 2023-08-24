@@ -48,3 +48,27 @@ h1{
    color: gray;
    text-align: center;
 }
+
+
+@media screen and (max-width: 480px) {
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .main{
+        gap: 5px;
+    }
+
+    .square{
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 80px;
+    }
+
+    .dot{
+        font-size: 3rem;
+    }
+}
